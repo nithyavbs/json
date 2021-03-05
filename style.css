@@ -68,7 +68,8 @@
         .banner{
             background-image: url(assets/img/image-desk-3px.jpg);
             height:450px;
-            width:100%
+            width:100%;
+            left: 24px;
         }
     } 
 }
@@ -106,14 +107,31 @@
         background-image: url(assets/img/image1-2x.jpg);
         height:450px;
         width: 1392px;
-        left: 24px;
+        margin-left: 24px;
         top: 88px;
         border-radius: 16px;
 
     }
 }
 /* For responsive web design  Mobile = 767px */
-@media only screen and  (max-width:767px){
+@media(max-width:767px){
+    /* .wrapper{
+        height: 3778px;
+        width: 320px;
+        left: 4912px;
+        top: -495px;
+        border-radius: 0px;
+
+    } */
+    header{
+        padding: 25px 0;
+        }
+            header .brand{
+            width:100px;
+            float:none;
+        padding-left:132px;
+        /* padding-top:34px; */
+        }
     .mobile-nav{
         display:block;
         width:36px;
@@ -132,7 +150,7 @@
         /* margin:0; */
         display:none;
         width:100%;
-        float:none;
+        float:left;
     }
     .mn-balancer{
         content:'';
@@ -141,13 +159,12 @@
         height:0;
         clear:both; 
     }
+
     .banner{
-        background-image: url(assets/img/image-m-2px.jpg);
-        height:93px;
-        width:350px;
-        height: 93px;
-        left: 16px;
-        top: 88px;
-        border-radius: 4px;
-    }
+        background-image: url(assets/img/image1-m-2px.jpg);
+        height:200px;
+        /* margin-left: 16px; */
+        /* margin-right:16px; */
+        }
+        
 }
