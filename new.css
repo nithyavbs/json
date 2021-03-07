@@ -218,7 +218,7 @@ section .why-join-us{
 }
 #my-row {
     /* background-color: red; */
-    margin-left: 90px;
+    margin-left: 65px;
     margin-right: -1px;
     /* margin-right: -418px; */
   }
@@ -233,7 +233,7 @@ section .why-join-us{
           line-height:25px;
       }
 #my-col1{
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right:30px;
     /* padding-right: 10px; */
   }
@@ -246,7 +246,7 @@ section .why-join-us{
   } */
   .rect-img{
       padding-top:25px;
-      padding-left:65px;
+      padding-left:35px;
       padding-bottom:25px;
   }
   .rect-img .img-space{
