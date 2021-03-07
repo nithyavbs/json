@@ -248,10 +248,30 @@ section .why-join-us{
       padding-top:25px;
       padding-left:35px;
       padding-bottom:25px;
+      /* margin: 3%;  */
+    position: relative;
   }
+  
+ .rect1{
+    position: absolute; 
+            top: 180px; 
+            left: 150px; 
+}
+.rect2{
+    position: absolute; 
+    top: 180px; 
+    left: 500px; 
+}
+.rect3{
+    position: absolute; 
+    top: 180px; 
+    left: 880px; 
+}
   .rect-img .img-space{
-      padding:12px;
-  }
+      padding:16px;
+  } /* .rect-img .img-space{
+      padding:8px;
+  } */
   .footer-img{
     position:relative;
     width:90%;
