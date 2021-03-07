@@ -95,18 +95,18 @@ section{
     /* text-align:justify; */
 }
 .btn{
-    font-size:16px;
-    color:white;
-    background:black;
-    padding-top:25px;
-    display:inline-block;
-    padding:10px 30px;
-    text-decoration:none;
-    text-align: center;
-    height:50px;
-    /* transition:0.5s; */
-    border-radius:4px;
-    margin-top:40px;
+     font-size: 16px;
+        color: white;
+        background: black;
+        padding-top: 25px;
+        display: inline-block;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-align: center;
+        /* height: 50px; */
+        /* transition: 0.5s; */
+        border-radius: 4px;
+        margin-top: 20px;
 }
 .btn:hover{
     /* letter-spacing:5px; */
@@ -246,18 +246,18 @@ section .why-join-us{
   } */
   .rect-img{
       padding-top:25px;
-      padding-left:75px;
+      padding-left:65px;
       padding-bottom:25px;
   }
   .rect-img .img-space{
-      padding:14px;
+      padding:12px;
   }
   .footer-img{
     position:relative;
     width:90%;
     /* min-height:381px */
     /* height:calc(100vh - 100px); */
-    min-height:70vh;
+    min-height:60vh;
      top:30px;
     left:110px;
     bottom:200px;
@@ -274,7 +274,6 @@ section .why-join-us{
 }
 .footer-img .content {
     text-align:center;
-    line-height:50px;
 }
 .footer-img .content a .btn{
     /* font-size:1em;
