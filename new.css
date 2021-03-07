@@ -334,7 +334,7 @@ section .why-join-us{
         .banner{
             /* position:relative; */
             /* width:100%; */
-            max-width: 78%;
+            max-width: 70%;
             min-height:20vh;
             /* height:calc(100vh - 100px); */
              top:88px;
