@@ -24,7 +24,7 @@ body {
 /* Header Navigation */
 .desktop-nav {
 	display: flex;
-	left: 1224px;
+	left: 125px;
 	justify-content: space-between;
 	/* align-items: center; */
 	background: rgb(255, 255, 255);
@@ -78,7 +78,7 @@ body {
 	padding-top: 20px;
 	width: 1392px;
 	height: 450px;
-	left: 24px;
+	left: 34px;
 	top: 88px;
 	overflow-x: visible;
 	/* background: url(assets/img/image1.png); */
