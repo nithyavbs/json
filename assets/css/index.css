@@ -781,7 +781,7 @@ a.btn2:hover {
 }
 
 /* Mobile View */
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 380px){
 	.desktop-container{
 		display:none;
 		}
