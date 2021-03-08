@@ -228,7 +228,7 @@ section .why-join-us{
     padding-top:180px;
 }
 .row .col52{
-    padding-left:758px;
+    padding-left:728px;
 }
 
 
@@ -377,7 +377,7 @@ h5{
       .space{
           padding-left:20px;
       }
-      @media only screen and (max-width: 768px){
+      @media only screen and (max-width: 360px){
         .banner{
             /* position:relative; */
             width:75%;
@@ -401,10 +401,10 @@ h5{
             font-weight:700;
         }
         .wrapper{
-            width:768px;
+            width:360px;
             margin: 0 auto;
-            padding: 0 24px;
-            padding-top:34px;
+            /* padding: 0 24px; */
+            /* padding-top:24px; */
         }
           header,header.sticky{
               padding:10px 20px;
@@ -413,7 +413,7 @@ h5{
               display:none;
           }
           section{
-              padding:15px;
+              padding:25px;
               padding-left:2px;
           }
           h1{
@@ -425,7 +425,7 @@ h5{
                position: relative;
                 display: flex;
                 /* justify-content: space-between; */
-                margin-top:54px;
+                margin-top:2px;
                 font-size:16px;
                 padding-left:8px;
           }
@@ -436,13 +436,13 @@ h5{
           .row .col49 {
             position: relative;
             width: 75%;
-            padding-left: 15px;
-            padding-top:125px;
+            padding-left:2px;
+            padding-top:95px;
           }
           .row .col49 h2 .title-text {
             /* position: relative; */
             width: 75%;
-            padding-left: 15px;
+            padding-left: 8px;
             padding-top:275px;
           }
          .row .col47{
@@ -460,7 +460,7 @@ h5{
               position:relative;
               width:100%;
               margin-top: 45px;
-              left:55px;
+              /* left:55px; */
           }
           .row .col50 .app-img{
               position:relative;
@@ -487,9 +487,9 @@ h5{
             width:100%;
             background:url(imagem2.jpg);
         }
-          section .why-join-us{
+          /* section .why-join-us{
             padding-top:5px;
-        }
+        } */
           .how{
             margin-top:5px;
             padding-top:200px;
