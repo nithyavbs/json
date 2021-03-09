@@ -1,6 +1,6 @@
 
 /* @media only screen and (min-width:769px) and (max-width: 1424px){ */
-	@media only screen and (min-width:998px){
+	@media only screen and (max-width:1440px){
 		* {
 			margin: 0;
 			box-sizing: border-box;
