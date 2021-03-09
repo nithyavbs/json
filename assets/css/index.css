@@ -1,6 +1,6 @@
 
-/* @media only screen and (min-width:769px) and (max-width: 1424px){ */
-	@media only screen and (min-width:1365px){
+ @media only screen and (min-width:769px) and (max-width: 1424px){ 
+	/* @media only screen and (min-width:1365px){ */
 		* {
 			margin: 0;
 			box-sizing: border-box;
@@ -13,12 +13,12 @@
 			font-family: "Roboto", sans-serif;
 		}
 		
-		.wrapper {
-			width: 1365px;
+		/* .wrapper {
+			width: 1400px;
 			margin: 0 auto;
-			padding: 0 24px;
+			padding: 12 24px;
 			padding-top: 34px;
-		}
+		} */
 		p{
 			font-weight:300;
 			color:black;
@@ -801,8 +801,8 @@
 			/* identical to box height */
 			text-align: right;
 			color: #000000;
-		}
-		}
+		}	
+	}
 	
 /* Mobile View */
 @media only screen and (max-width: 420px){
