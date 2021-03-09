@@ -246,11 +246,11 @@ section .why-join-us{
   } */
   .rect-img{
       padding-top:25px;
-      padding-left:75px;
+      padding-left:85px;
       padding-bottom:25px;
   }
   .rect-img .img-space{
-      padding-left:14px;
+      padding-left:34px;
   }
   .footer-img{
     position:relative;
