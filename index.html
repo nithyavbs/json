@@ -17,37 +17,24 @@
 
 <body>
     <div class="desktop-container">
-        <!-- Header Section Start -->
-        <div class="header">
-            <div class="nav-container">
-                <div class="wrapper">
-                    <nav class="desktop-nav">
-                        <div class="logo">
-                            <a href="#"> <img class="logo" src="assets/img/logo.png"
-                                alt="" />
-                            </a>
-                        </div>
-                        <ul class="menu-items">
-                            <li><a href="#why" class="active">Why join us</a></li>
-                            <li><a href="#how it works">How it works</a></li>
-                            <li><a href="#sign">Sign Up</a></li>
-                        </ul>
-                    </nav>
-                    <!-- End of Desktop Navigation -->
-                </div>
+        <header>
+            <a href="#" class="logo">
+                <img src="logo.png" alt="" />
+            </a>
+            <ul class="navigation">
+                <li><a href="#why" class="active">Why Join Us</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </header>
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2></h2>
+                <!-- <a hred="#" class>our menu</a> -->
             </div>
-        </div>
-        <div class="header-container">
-            <div class="wrapper">
-                <header>
-                    <div class="hero-image">
-                        <img src="assets/img/image1.png" alt="" />
-                        <div class="photo-bg"></div>
-                    </div>
-                </header>
-            </div>
-        </div>
-        <div class="body-container">
+        </section>
+        <!-- </div> -->
+        <section class="body-container">
             <div class="wrapper">
                 <p class="text1">
                     Get found and <br /> grow your business.
@@ -60,7 +47,7 @@
                         informal sector.</p>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="app-container">
             <div class="wrapper">
                 <span class="get-app"></span> <span class="rect-8"></span>
@@ -73,6 +60,7 @@
     
             </div>
         </div>
+        
         <div class="why-us-container">
             <div class="wrapper">
                 <!-- <p class="head2"> -->
@@ -103,7 +91,7 @@
             <img class="img2" src="assets/img/image2.jpg" alt=""></img>
             <div class="app-container">
                 <div class="wrapper">
-                    <a id="how it works" class="head3">How the Boni app works</a>
+                    <a id="how" class="head3">How the Boni app works</a>
                     <p class="s7">Businesses can get found by local communities by
                         managing their digital shop on the Boni App.</p>
     
@@ -139,13 +127,18 @@
             <p class="bottom-sign">Sign up</p>
             <p class="boni">© Copyright Boni 2021</p>
         </div>
-    
+        <script type="text/javascript">
+            window.addEventListener('scroll', function () {
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
     </div>
     <!-- Mobile Version -->
     <div class="mobile-nav">
         <div class="wrapper">
             <div class="v184_3"><span class="v184_8"><img src="./assets/img/logo-m.png"></span>
-                <div class="v184_9"></div><span class="v184_11">Get found and grow your business.</span><br /><span
+                <div class="v184_9"></div><span class="v184_11">Get found and grow your business.</span></br></br><span
                     class="v184_12">There are 63 million micro enterprises that cater to hyperlocal demands operating at
                     very
                     low overhead costs as family enterprises. That equals over 90% of India employed in the informal
