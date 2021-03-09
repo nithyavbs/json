@@ -1,5 +1,5 @@
 
- @media only screen and (min-width:998px){ 
+ @media only screen and (min-width:421px) and (min-width:1440){ 
 	/* @media only screen and (min-width:1365px){ */
 		* {
 			margin: 0;
@@ -14,7 +14,7 @@
 		}
 		
 		.wrapper {
-			width: 1440px;
+			width: 1365px;
 			margin: 0 auto;
 			padding: 12 24px;
 			padding-top: 34px;
