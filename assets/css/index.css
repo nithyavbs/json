@@ -777,10 +777,16 @@ a.btn.cyan:hover {
 	}
 	
 	.wrapper {
-		width: 420px;
-		margin: 0 auto;
-		padding: 12px 12px;
-		padding-top: 34px;
+		/* width: 420px; */
+		/* margin: 0 auto; */
+		/* padding-left:12px; */
+		/* padding-bottom:12px; */
+		padding-top: 24px;
+		margin-right: auto;
+  margin-left:  auto;
+  max-width: 420px;
+  padding-right: 10px;
+  padding-left:  10px;
 	}
 	
 		.mobile-nav{
