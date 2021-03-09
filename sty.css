@@ -35,7 +35,7 @@ h2{
     align-items:center;
     background:url(image1.png);
     border-radius:16px;
-    /* background:no-repeat; */
+    background-repeat:no-repeat;
     /* background-size:cover; */
     /* border-radius:16px; */
 }
