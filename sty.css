@@ -36,8 +36,8 @@ h2{
     background:url(image1-2dp.jpg);
     border-radius:16px;
     background-repeat:no-repeat;
-    /* background-size:cover; */
-    /* border-radius:16px; */
+    background-size:cover;
+    border-radius:16px;
 }
 header{
     position:fixed;
@@ -250,7 +250,7 @@ section .why-join-us{
       padding-bottom:25px;
   }
   .rect-img .img-space{
-      padding:14px;
+      padding:44px;
   }
   .footer-img{
     position:relative;
