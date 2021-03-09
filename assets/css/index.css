@@ -1,7 +1,7 @@
 
 /* @media only screen and (min-width:769px) and (max-width: 1424px){ */
 	
-@media only screen and (min-width:1365px){
+@media only screen and (min-width:769px) and (max-width: 1424px){
 * {
 	margin: 0;
 	box-sizing: border-box;
@@ -9,18 +9,17 @@
 .mobile-nav{
 	display:none;
   
-  }
-    
+} 
 body {
 	font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-	width: 1400px;
+/* .wrapper {
+	width: 998px;
 	margin: 0 auto;
 	padding: 0 24px;
 	padding-top: 34px;
-}
+} */
 /* Header Navigation */
 .desktop-nav {
 	display: flex;
@@ -783,7 +782,7 @@ a.btn.cyan:hover {
 		/* padding-bottom:12px; */
 		padding-top: 24px;
 		margin-right: auto;
-  margin-left:  auto;
+  margin-left:  15px;
   max-width: 420px;
   padding-right: 10px;
   padding-left:  10px;
