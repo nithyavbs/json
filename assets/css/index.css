@@ -1,7 +1,7 @@
 
 /* @media only screen and (min-width:769px) and (max-width: 1424px){ */
 	
-@media only screen and (min-width:998px){
+@media only screen and (min-width:1365px){
 * {
 	margin: 0;
 	box-sizing: border-box;
@@ -766,7 +766,7 @@ a.btn.cyan:hover {
 }
 }
 /* Mobile View */
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 450px){
 	.desktop-container{
 		display:none;
 		}
