@@ -1,5 +1,5 @@
 
- @media only screen and (min-width:769px) and (max-width: 1424px){ 
+ @media only screen and (min-width:998px){ 
 	/* @media only screen and (min-width:1365px){ */
 		* {
 			margin: 0;
@@ -13,12 +13,12 @@
 			font-family: "Roboto", sans-serif;
 		}
 		
-		/* .wrapper {
+		.wrapper {
 			width: 1400px;
 			margin: 0 auto;
 			padding: 12 24px;
 			padding-top: 34px;
-		} */
+		}
 		p{
 			font-weight:300;
 			color:black;
@@ -54,9 +54,7 @@
 			position:fixed;
 			left:0;
 			width:100%;
-			padding-top:25px;
-			padding-left:24px;
-			padding-bottom:10px;
+		padding:20px 10px;
 			z-index:10000;
 			display:flex;
 			justify-content: space-between;
@@ -65,8 +63,8 @@
 		}
 		header.sticky{
 			background:white;
-			padding:10px 5px;
-			   box-shadow:0 5px 5px rgba(0,0,0,0.05);
+			padding:10px 100px;
+			   box-shadow:0 5px 20px rgba(0,0,0,0.05);
 		}
 		header .logo{
 			top:34px;
@@ -88,20 +86,18 @@
 			font-size:16px;
 			font-weight:bold;
 			color:black;
-			position: relative;
 		}
 		header .sticky .navigation li a{
 			color:#111;
 		}
 		header .navigation li a:hover
 		{
-			color:rgb(19, 19, 211);
+			color:#4501ff;
 		}
 		section{
 			padding:90px;
 			padding-bottom:2px;
 		}
-		
 		/* .desktop-nav .menu-items li a.active::after{
 				content:"";
 				position:absolute;
