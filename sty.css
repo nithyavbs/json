@@ -226,7 +226,7 @@ section .why-join-us{
   #my-col3 {
     /* background-color: blue; */
     color:black;
-    padding-left: 110px;
+    padding-left: 80px;
     padding-right: 10px;
       }
       h4{
@@ -238,7 +238,7 @@ section .why-join-us{
     /* padding-right: 10px; */
   }
   #my-col2{
-    padding-left: 30px;
+    padding-left:25px;
     padding-right: 10px;
   }
   /* p {
