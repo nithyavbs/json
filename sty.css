@@ -37,7 +37,7 @@ h2{
     border-radius:16px;
     background-repeat:no-repeat;
     background-size:cover;
-    border-radius:16px;
+    /* border-radius:16px; */
 }
 header{
     position:fixed;
@@ -226,31 +226,31 @@ section .why-join-us{
   #my-col3 {
     /* background-color: blue; */
     color:black;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 110px;
+    padding-right: 10px;
       }
       h4{
           line-height:25px;
       }
 #my-col1{
     padding-left: 10px;
-    padding-right:5px;
+    padding-right:30px;
     /* padding-right: 10px; */
   }
   #my-col2{
-    padding-left:5px;
-    padding-right: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
   }
   /* p {
     background-color: green;
   } */
   .rect-img{
       padding-top:25px;
-      padding-left:85px;
+      padding-left:75px;
       padding-bottom:25px;
   }
   .rect-img .img-space{
-      padding-left:34px;
+      padding-left:14px;
   }
   .footer-img{
     position:relative;
