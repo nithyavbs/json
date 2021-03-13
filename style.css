@@ -16,7 +16,7 @@
     }
    .hero-image {
         background-image:url("./assets/img/image1-desk.png");
-        height: 85vh;
+        height: 65vh;
         border-radius: 16px;
         width:100%;
         flex:auto;
