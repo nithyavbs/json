@@ -136,7 +136,7 @@
         text-align: center;
         background: url("./assets/img/image.png");
         background-repeat: no-repeat;
-        height: 95vh;
+        height: 65vh;
         background-position-x: center;
     }
 
@@ -154,7 +154,7 @@
         width: 50%;
         border-radius: 2px;
         opacity: 2;
-        margin: 4rem 1rem;
+        margin: 8rem 1rem;
         margin-top: 8rem !important;
 
     }
