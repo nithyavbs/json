@@ -27,7 +27,7 @@
     }
    .hero-image {
         background-image:url("./assets/img/image1.0.jpg");
-        height: 60vh;
+        height: 85vh;
         border-radius: 16px;
         width:100%;
         flex:auto;
@@ -155,12 +155,17 @@
         border-radius: 2px;
         opacity: 2;
         margin: 8rem 1rem;
-        margin-top: 1.5rem !important;
+        margin-top: 1rem !important;
 
     }
 
     hr {
         align-items: center;
+    }
+    #foot-items{
+        font-size: 15px;
+    justify-content: space-between;
+    font-size:bold;
     }
 
     .copy {
