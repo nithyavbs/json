@@ -1,22 +1,30 @@
  /* Large devices (desktops, less than 1200px) */
   /* @media screen and (min-width: 991.98px) and (max-width: 1199.98px) */
-  @media only screen and  (min-width: 1025px) and (max-width: 1400px){
+  @media all and (min-width: 768px) and (max-width: 1400px){
     * {
         font-family: "Roboto";
         color: black;
     }
     .wrapper {
        max-width: 1400px;
+       min-width:921px;
         margin-left: auto;
         margin-right: auto;
     }
-    
+    /* .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    } */
     .navbar-nav .nav-item .nav-link {
         font-size: 16px;
         font-weight: bold;
         color: black;
     }
-   .banner .hero-image {
+   .hero-image {
         background-image:url("image1-2dp.jpg");
         height: 60vh;
         border-radius: 16px;
@@ -328,7 +336,7 @@ font-size:bold;
             font-size:12px;
         }
     }
-    
+    @supports (display: flex) {
     @media only screen and (min-width: 720px) and (max-width: 920px) and (orientation: landscape){
         * {
             font-family: "Roboto";
@@ -336,11 +344,17 @@ font-size:bold;
         }
         .wrapper {
            max-width: 920px;
-          /* min-width:620px; */
-            margin-left: auto;
-            margin-right: auto;
+          min-width:720px;
+         margin-left: auto;
+            margin-right:auto; 
         }
-        
+        .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            /* padding-right: var(--bs-gutter-x,.75rem); */
+            padding-left: var(--bs-gutter-x,.5rem);
+            /* margin-right: auto; */
+            /* margin-left: auto; */
+        }
         .navbar-nav .nav-item .nav-link {
             font-size: 16px;
             font-weight: bold;
@@ -358,7 +372,7 @@ font-size:bold;
             position: relative;
           }
           .img2{
-        
+            width:90%;
           }
         a {
             color: black;
@@ -482,6 +496,10 @@ font-size:bold;
             flex: 0 0 auto;
             width: 33%;
         }
+        
+        .mt-5 {
+            margin-top: 1rem!important;
+        }
         .my-4 {
             margin-top: 1.5rem !important;
             margin-bottom: 1.5rem;
@@ -512,7 +530,7 @@ font-size:bold;
             text-align: center;
         }
     }
-    
+} 
     /* Small devices (landscape phones, less than 768px)
     and (max-width: 767.98px) */
     /* and (orientation: landscape) */
